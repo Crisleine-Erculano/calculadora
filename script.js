@@ -1,13 +1,13 @@
 let entrada = '';
 function adicionar(numero){
-
-  entrada = document.querySelector('#entrada').innerHTML;
-  document.querySelector('#entrada').innerHTML = entrada + numero;
+   
+      entrada = document.querySelector('#entrada').innerHTML;
+      document.querySelector('#entrada').innerHTML = entrada + numero;
   
-
 }
 function limpar(){
-   entrada = 0
+   entrada =''
    document.querySelector('#entrada').innerHTML = entrada;
 }
+
 

@@ -24,7 +24,6 @@ body{
 .calculadora__resultado{
    font-size: 2.5em;
    min-height: 1.6em;
-   height: 50px;
    text-align: right;
    overflow-wrap: break-word;
 }
@@ -49,6 +48,9 @@ body{
 .botoes:hover{
    background-color: #9E9E9E;
    border:1px solid #5E5E5E;
+}
+.calculadora__operacao--duplo{
+   grid-column: span 2;
 }
 .botoes--duplo{
    background-color: rgba(60, 60, 223, 0.544);

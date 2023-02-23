@@ -11,11 +11,12 @@
    
    <div class="calculadora">
       <h2 class="calculadora__titulo">Calculadora</h2>
-      <div class="calculadora__resultado" id="entrada" ></div>
+      <div class="calculadora__resultado" id="entrada" >
+
+      </div>
       <div class="calculadora__teclas">
-         <button class="calculadora__operacao botoes" onclick="limpar()">CE</button>
-         <button class="calculadora__operacao botoes">C</button>
-         <button class="calculadora__operacao botoes">DEL</button>
+         <button class="calculadora__operacao botoes calculadora__operacao--duplo" onclick="limpar()">CE</button>
+         <button class="calculadora__operacao botoes limparElemento">C</button>
          <button class="calculadora__operacao botoes" onclick = "adicionar('/')">/</button>
          <button class="calculadora__numeros botoes" onclick = "adicionar(7)">7</button>
          <button class="calculadora__numeros botoes" onclick = "adicionar(8)">8</button>
@@ -31,7 +32,7 @@
          <button class="calculadora__operacao botoes" onclick = "adicionar('+')">+</button>
          <button class="calculadora__numeros botoes" onclick = "adicionar(0)">0</button>
          <button class="calculadora__numeros botoes" onclick = "adicionar('.')">.</button>
-         <button class="calculadora__operacao botoes botoes--duplo">=</button>
+         <button class="calculadora__operacao botoes botoes--duplo" onclick="resultado()">=</button>
 
       </div>
    </div>
