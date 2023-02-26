@@ -15,9 +15,9 @@ function limparElemento(){
 
 function resultado(){
       let calcula = document.querySelector('#entrada').innerHTML;
-      if(calcula){
-                document.querySelector( '#entrada' ).innerHTML  =  eval ( calcula ) ;
-            }
-      }
+      document.querySelector( '#entrada' ).innerHTML  =  eval ( calcula ) ;
+               
+}           
+      
        
        
